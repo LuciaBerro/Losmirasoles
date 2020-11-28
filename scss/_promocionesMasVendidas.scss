@@ -1,0 +1,80 @@
+@import "colores";
+
+.promos-mas-vendidas {
+
+    h1 { font-size: 3.5em;
+        letter-spacing: 1%;
+        color: $rojo;
+        text-align: center;
+        padding: 1em 0 1em 0;
+    }
+
+    .card {
+        overflow: hidden;
+        border-radius: 10%;
+        -webkit-border-radius: 10%;
+        -moz-border-radius: 10%;
+        -ms-border-radius: 10%;
+        -o-border-radius: 10%;
+        box-shadow: 12px 12px 15px 0 rgba(0, 0, 0, 0.24);
+        -webkit-box-shadow:0 12px -50px 0 rgba(0, 0, 0, 0.24);
+        -moz-box-shadow: 0 12px -50px 0 rgba(0, 0, 0, 0.24);
+
+        .card-img-top {
+            height: 15em;
+        }
+
+        .card-footer{
+            height: 4em;
+            .promo-precio {
+                height: 1em;
+                font-size: 2em;
+                color: $rojo;
+            }
+        }
+
+        .promo-redes {
+            width: 2.5em;
+        }
+    }
+
+    .row {
+        margin-bottom: 1.5em;
+    }
+
+}
+
+
+
+#myModal {
+    
+    .modal-content {
+        border: 0.1em solid rgba(247,24,24,1.2);
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+        box-shadow: 12px 12px 15px 0 rgba(0, 0, 0, 0.24);
+        -webkit-box-shadow:0 12px -50px 0 rgba(0, 0, 0, 0.24);
+        -moz-box-shadow: 0 12px -50px 0 rgba(0, 0, 0, 0.24);
+
+        .modal-header{
+            border-bottom: 0em;
+        }
+    
+        .modal-body {
+            .card {
+                border: none;
+            }
+            select {
+                margin: 0 1.5em 1em 0;
+            }
+        }
+    
+        .modal-footer {
+            border-top: 0em;
+           
+        }        
+    }
+}
