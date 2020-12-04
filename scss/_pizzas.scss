@@ -34,3 +34,36 @@
        }
    }
 }
+
+#myModal2 {
+    
+    .modal-content {
+        border: 0.1em solid rgba(247,24,24,1.2);
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+        box-shadow: 12px 12px 15px 0 rgba(0, 0, 0, 0.24);
+        -webkit-box-shadow:0 12px -50px 0 rgba(0, 0, 0, 0.24);
+        -moz-box-shadow: 0 12px -50px 0 rgba(0, 0, 0, 0.24);
+    
+        .modal-body {
+
+            .pizza-tamaño  {
+                font-size: 1.7em;
+            }
+           .pizza-precio  {
+                font-size: 1.7em;
+                color: $rojo;
+            }
+            .card {
+                border: none;
+            }
+            select {
+                margin: 0 1.5em 1em 0;
+            }
+        }
+           
+    }
+}

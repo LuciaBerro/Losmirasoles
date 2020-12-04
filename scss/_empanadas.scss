@@ -4,7 +4,9 @@
 
     .card {
         border: none;
-       background-color: $colorFondo;  
+        background-color: $colorFondo;  
+        border-bottom: 0.1rem solid lightgray;
+        
        
        .card-title {
            font-size: 2em;
